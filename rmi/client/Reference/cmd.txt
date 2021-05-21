@@ -1,0 +1,1 @@
+java -Dcom.sun.jndi.rmi.object.trustURLCodebase=true -Dcom.sun.jndi.ldap.object.trustURLCodebase=true JNDIClient rmi://127.0.0.1:1099/refObj
