@@ -1,5 +1,5 @@
 # understanding_jndi_injection
-understanding jndi injection
+understanding jndi injection, rmi for example
 
 # 注意事项
 + RemoteObject模式下register、server、client均需共享接口class
