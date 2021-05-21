@@ -13,38 +13,38 @@ JNDI Reference注入：JNDI服务绑定Reference对象的时候，JNDI客户端l
     -Reference出现的意义由此也能窥见一斑，即JNDI Client和JNDI Server不需要维护统一的接口了，通过统一的Reference规范远程加载统一的ObjectFactory类和实例化类来完成远程调用。
 
 # demo结构
-.
-├── client
-│   ├── Reference
-│   │   ├── cmd.txt
-│   │   ├── JNDIClient.class
-│   │   └── JNDIClient.java
-│   └── RemoteObject
-│       ├── cmd.txt
-│       ├── Hello.class
-│       ├── Hello.java
-│       ├── JNDIClient.class
-│       └── JNDIClient.java
-├── codebase
-│   ├── cmd.txt
-│   ├── EvilObject.class
-│   └── EvilObject.java
-├── register
-│   ├── cmd.txt
-│   ├── Hello.class
-│   ├── Hello.java
-│   ├── RMIRegister.class
-│   └── RMIRegister.java
-└── server
-    ├── Reference
-    │   ├── cmd.txt
-    │   ├── RMIService.class
-    │   └── RMIService.java
-    └── RemoteObject
-        ├── cmd.txt
-        ├── Hello.class
-        ├── HelloImpl.class
-        ├── HelloImpl.java
-        ├── Hello.java
-        ├── RMIService.class
-        └── RMIService.java
+.  
+├── client  
+│   ├── Reference  
+│   │   ├── cmd.txt  
+│   │   ├── JNDIClient.class  
+│   │   └── JNDIClient.java  
+│   └── RemoteObject  
+│       ├── cmd.txt  
+│       ├── Hello.class  
+│       ├── Hello.java  
+│       ├── JNDIClient.class  
+│       └── JNDIClient.java  
+├── codebase  
+│   ├── cmd.txt  
+│   ├── EvilObject.class    
+│   └── EvilObject.java  
+├── register  
+│   ├── cmd.txt  
+│   ├── Hello.class  
+│   ├── Hello.java  
+│   ├── RMIRegister.class  
+│   └── RMIRegister.java  
+└── server  
+    ├── Reference  
+    │   ├── cmd.txt  
+    │   ├── RMIService.class  
+    │   └── RMIService.java  
+    └── RemoteObject  
+        ├── cmd.txt  
+        ├── Hello.class  
+        ├── HelloImpl.class  
+        ├── HelloImpl.java  
+        ├── Hello.java  
+        ├── RMIService.class  
+        └── RMIService.java  
