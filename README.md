@@ -13,3 +13,9 @@ JNDI Reference注入：JNDI服务绑定Reference对象的时候，JNDI客户端l
 
 # demo结构
 ![image](https://user-images.githubusercontent.com/70132162/119106419-ecec6f00-ba50-11eb-82bf-e76306b3ec5a.png)
+
+# 实验效果
++ Reference JNDI注入：
+![image](https://user-images.githubusercontent.com/70132162/119109005-5f5e4e80-ba53-11eb-908b-88e764171bd1.png)
++ Remote Object RMI调用：
+![image](https://user-images.githubusercontent.com/70132162/119109280-9fbdcc80-ba53-11eb-956e-b0ccdf76f892.png)
